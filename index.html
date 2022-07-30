@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="popup">
+            <div class="popup-img" id="popup-img">
+                <img src="/images/icon-close.svg" alt="close" class="cl">
+                <div class="buttons">
+
+                    <img src="/images/icon-previous.svg" alt="previous" class="pre">
+                    <img src="/images/icon-next.svg" alt="next" class="nex">
+                </div>
+
+            </div>
+            <div class="galery">
+                <div class="th1 th">
+                </div>
+                <div class="th2 th">
+
+                </div>
+                <div class="th3 th">
+
+                </div>
+                <div class="th4 th">
+
+                </div>
+            </div>
+        </div>
+        <div class="first-con">
+            <div class="menu">
+
+            </div>
+            <img src="images/logo.svg" alt="logo" class="logo">
+        </div>
+        <div class="drop">
+            <ul>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="second-con">
+            <div class="cart-con">
+                <div class="vari"></div>
+                <img src="images/icon-cart.svg" alt="cart" class="cart">
+            </div>
+
+            <img src="images/image-avatar.png" class="avatar" alt="avatar">
+        </div>
+
+        <div class="black"></div>
+        <div class="drop-cart">
+            <h3>Cart</h3>
+            <div class="line"></div>
+            <p class="empty">Your cart is empty.</p>
+            <div class="item">
+                <img src="/images/image-product-1-thumbnail.jpg" alt="product" class="thumb">
+                <div class="txt">
+                    <p>Autumn Limited Edition</p>
+                    <p id="quant">$125 x 3 <span id="total">$375</span></p>
+                </div>
+                <img src="/images/icon-delete.svg" alt="delete" class="delete">
+            </div>
+            <a href="#" id="checkout">Checkout</a>
+        </div>
+    </header>
+    <main>
+        <div class="desk-con">
+            <div class="product-img" id="product-img">
+                <div class="ch-btn">
+                    <img src="/images/icon-previous.svg" alt="previous" class="prev">
+                    <img src="/images/icon-next.svg" alt="next" class="next">
+                </div>
+
+            </div>
+            <div class="gal">
+                <div class="thumbmail1 thumbmail">
+                </div>
+                <div class="thumbmail2 thumbmail">
+
+                </div>
+                <div class="thumbmail3 thumbmail">
+
+                </div>
+                <div class="thumbmail4 thumbmail">
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="desk-con float">
+            <div class="product-img" id="product-img">
+                <div class="ch-btn">
+                    <img src="/images/icon-previous.svg" alt="previous" class="prev">
+                    <img src="/images/icon-next.svg" alt="next" class="next">
+                </div>
+
+            </div>
+            <div class="gal">
+                <div class="thumbmail1 thumbmail">
+                </div>
+                <div class="thumbmail2 thumbmail">
+
+                </div>
+                <div class="thumbmail3 thumbmail">
+
+                </div>
+                <div class="thumbmail4 thumbmail">
+
+                </div>
+            </div>
+        </div> -->
+        <div class="main-container">
+            <h5>Sneaker Company</h5>
+            <h1>Fall Limited Edition Sneakers</h1>
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            <div class="price">
+                <h1>$125.00</h1>
+
+                <h5 class="remise">50%</h5>
+
+                <p>$250.00</p>
+            </div>
+            <div class="form">
+
+                <a class="minus" id="minus">-</a>
+                <input type="number" name="cont" id="contity" class="contity" value="0">
+                <a class="plus" id="plus">+</a>
+                <input type="submit" value="Add to cart" id="submit" class="submit">
+            </div>
+        </div>
+    </main>
+
+    <!-- Collections
+  Men
+  Women
+  About
+  Contact
+
+  Sneaker Company
+
+  Fall Limited Edition Sneakers
+
+  These low-profile sneakers are your perfect casual wear companion. Featuring a 
+  durable rubber outer sole, they’ll withstand everything the weather can offer.
+
+  $125.00
+  50%
+  $250.00
+
+  0
+  Add to cart -->
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/tebbiAbdelhakim">Tebbi Abdelhakim</a>.
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
